@@ -27,7 +27,7 @@ export class FirstComponent implements OnInit {
       name: 'Siwakorn Kaewmala',
       gender: 'Male',
       birthyear: 2002,
-      email: 'B611223@g.sut.ac.th',
+      email: 'B6311223@g.sut.ac.th',
       phone: '0657313223',
       img: 'http://www.sut.ac.th/2012/images/upload/editor/images/201406/logo.gif',
       address: 'SUT 111 University Avenue, Suranaree Sub-Distric, Muang Nakhon Ratchasima Distric, Nakhon Ratchasima 30000 Thailand',

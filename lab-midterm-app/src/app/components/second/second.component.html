@@ -28,6 +28,9 @@
                                 <div class="col-md-9">
                                     <div class="form-group">
                                         <input type="number" class="form-control" formControlName = 'id'>
+                                        <div *ngIf="f.id.invalid && (f.id.dirty || f.id.touched)" class="alert alert-danger">
+                                            <div *ngIf="f.id?.errors?.['required']" >ID is required.</div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -38,6 +41,9 @@
                                 <div class="col-md-9">
                                     <div class="form-group">
                                         <input type="text" class="form-control" formControlName = 'name'>
+                                        <div *ngIf="f.name.invalid && (f.name.dirty || f.name.touched)" class="alert alert-danger">
+                                            <div *ngIf="f.name?.errors?.['required']" >Name is required.</div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -48,6 +54,9 @@
                                 <div class="col-md-9">
                                     <div class="form-group">
                                         <input type="text" class="form-control" formControlName = 'detail'>
+                                        <div *ngIf="f.detail.invalid && (f.detail.dirty || f.detail.touched)" class="alert alert-danger">
+                                            <div *ngIf="f.detail?.errors?.['required']" >Detail is required.</div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
