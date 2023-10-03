@@ -28,7 +28,7 @@ export class SecondComponent implements OnInit {
   }
 
   addProduct(){
-    
+
     alert("Add product to database successfully")
     
   }
