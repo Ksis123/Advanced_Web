@@ -1,0 +1,3 @@
+// http://localhost:3000/user/signup GET
+// http://localhost:3000/login/signin POST
+// http://localhost:3000/api/courses

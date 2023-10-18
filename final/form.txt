@@ -1,0 +1,9 @@
+{
+           "stdid": "B6000333",
+            "password": "123456",
+            "name": "Ksis",
+            "sex": "Male",
+            "age": "21",
+            "major": "CPE",
+            "tel": "0657313223"
+}
